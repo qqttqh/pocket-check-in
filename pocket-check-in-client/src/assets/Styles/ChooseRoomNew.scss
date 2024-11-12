@@ -1,0 +1,50 @@
+.chooce-room-new-root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 375px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 20px;
+
+    .top-bar {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        padding-left: 10px;
+
+        .username-container {
+            display: flex;
+            align-items: center;
+            margin-right: 3px;
+            font-weight: 600;
+            font-size: 18px;
+
+            span {
+                max-width: 150px;
+                overflow: hidden;
+                white-space: nowrap;
+                text-overflow: ellipsis;
+            }
+        }
+    }
+
+    .room-card-list {
+        width: 320px;
+        height: 490px;
+        margin-top: 20px;
+        overflow: auto;
+        display: flex;
+        justify-content: space-between;
+        align-content: start;
+        flex-wrap: wrap;
+        gap: 20px;
+        scrollbar-width: none;
+        scrollbar-color: #8B8B8B transparent;
+
+    }
+
+    .button-container {
+        padding-top: 30px;
+    }
+}
